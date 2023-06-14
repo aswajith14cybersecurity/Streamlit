@@ -291,11 +291,12 @@ Here, we have an access log, and our objective is to create a log data analyzer 
 2. Using python to extract data.
  Here, we utilize Python to extract and analyze data from the access log. By leveraging Python's capabilities and libraries such as regular expressions, Pandas, Streamlit, and Altair, we can effectively process the access log and present the information in a structured and visually appealing manner.
 2.1 Python code with explation:
- 
- 
+![streamlit1](https://github.com/aswajith14cybersecurity/Streamlit/assets/104053455/8def3055-16be-4999-a679-13f7028fd0f7)
+![streamlit2](https://github.com/aswajith14cybersecurity/Streamlit/assets/104053455/89936d4c-bb93-49c8-a911-486fba2a2937)
+
 streamlit run streamlitaccesslog.py (streamlitaccesslog.py is the name of the file) is used to execute a streamlit web application. by running the command "streamlit run streamlitaccesslog.py". Streamlit launches a local web server and open a web browser window displaying the streamlit application which allow user to interact with the log data analyzer tool.
 2.2 Streamlit Application - Log Data Analyzer 
- 
+![streamlitlog](https://github.com/aswajith14cybersecurity/Streamlit/assets/104053455/b05ee387-98bc-44a5-ba37-b59ba94a11ce)
 When the application is launched, it presents the following information and features on the website:
 1.	1. Title: The website displays a tilte "Log Data Analyzer".
 2.	2. Access Log Data: Below the title, the application displays the access log data in a tabular format. Each row represents a log entry which includes columns for IP address, response code, date and user agent. This allow the user to view the log in a organized manner.
